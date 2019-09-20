@@ -3,11 +3,11 @@ package com.example.lucas.farmafcil;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class BuscaResultadoActivity extends AppCompatActivity {
+public class CadastroPessoaFimActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_busca_resultado);
+        setContentView(R.layout.activity_cadastro_pessoa_fim);
     }
 }

@@ -13,8 +13,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BuscaDinamicaActivity"></activity>
-        <activity android:name=".BuscaResultadoActivity" />
+        <activity android:name=".CadastroPessoaFimActivity"></activity>
+        <activity android:name=".MenuFuncActivity" />
+        <activity android:name=".CadastroPessoaActivity" />
+        <activity android:name=".InicialActivity" />
+        <activity android:name=".Listar" />
+        <activity android:name=".BuscaDinamicaActivity" />
         <activity android:name=".ResultadoActivity" />
         <activity android:name=".BuscarActivity" />
         <activity android:name=".CadastroActivity" />

@@ -11,24 +11,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Buscar Medicamento"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="114dp" />
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="265dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Listar Medicamentos"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="199dp" />
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="357dp" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Listar Medicamentos"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="281dp" />
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="453dp" />
 
     <Button
         android:id="@+id/button4"
@@ -36,5 +36,5 @@
         android:layout_height="wrap_content"
         android:text="Sair"
         tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="363dp" />
+        tools:layout_editor_absoluteY="559dp" />
 </android.support.constraint.ConstraintLayout>

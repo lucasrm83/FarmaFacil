@@ -16,15 +16,10 @@
         <activity android:name=".CadastroPessoaFimActivity"></activity>
         <activity android:name=".MenuFuncActivity" />
         <activity android:name=".CadastroPessoaActivity" />
-        <activity android:name=".InicialActivity" />
-        <activity android:name=".Listar" />
         <activity android:name=".BuscaDinamicaActivity" />
-        <activity android:name=".ResultadoActivity" />
-        <activity android:name=".BuscarActivity" />
-        <activity android:name=".CadastroActivity" />
         <activity android:name=".MainActivity" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".InicialActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -10,42 +10,35 @@
         android:id="@+id/button9"
         android:layout_width="285dp"
         android:layout_height="47dp"
-        android:layout_marginTop="142dp"
-        android:layout_marginBottom="161dp"
+        android:layout_marginTop="32dp"
+        android:onClick="startCadastroMedicamentoActivity"
         android:text="Cadastrar Medicamento"
-        app:layout_constraintBottom_toTopOf="@+id/button11"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.547"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-
-        />
-
-    <Button
-        android:id="@+id/button10"
-        android:layout_width="285dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="142dp"
-        android:layout_marginBottom="161dp"
-        android:text="Atualizar Medicamento"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.543"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.325" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button11"
         android:layout_width="285dp"
         android:layout_height="47dp"
-        android:layout_marginTop="142dp"
 
+        android:layout_marginTop="32dp"
         android:onClick="startInicialActivity"
         android:text="Sair"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button20" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="285dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="32dp"
+        android:onClick="startBuscaFuncActivity"
+        android:text="Buscar Medicamento"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button9" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

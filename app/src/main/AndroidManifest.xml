@@ -13,8 +13,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".BuscaFuncActivity"></activity>
+        <activity android:name=".AtualizandoMedicamentoActivity" />
+        <activity android:name=".MedicamentoFuncActivity" />
+        <activity android:name=".MedicamentoCadastradoActivity" />
+        <activity android:name=".LoginFuncActivity" />
+        <activity android:name=".ListaDeEsperaActivity" />
+        <activity android:name=".MedicamentoExcluidoActivity" />
+        <activity android:name=".MedicamentoAtualizadoActivity" />
+        <activity android:name=".MedicamentoActivity" />
         <activity android:name=".LoginActivity" />
+        <activity android:name=".CadastroMedicamentoActivity" />
         <activity android:name=".CadastroPessoaFimActivity" />
         <activity android:name=".MenuFuncActivity" />
         <activity android:name=".CadastroPessoaActivity" />

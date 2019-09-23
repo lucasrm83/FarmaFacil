@@ -18,12 +18,19 @@ public class MainActivity extends AppCompatActivity {
         Intent buscaActivity = new Intent(this,BuscaActivity.class);
         startActivity(buscaActivity);
     }
-    //codigo para o botão sair utilizar(android:onClick)
-    public void startSairDoMenu (View view){
-        Intent loginActivity = new Intent(this,LoginActivity.class);
-        startActivity(loginActivity);
+    public void startListaDeEsperaActivity (View view) {
+        Intent listaDeEsperaActivity = new Intent(this, ListaDeEsperaActivity.class);
+        startActivity(listaDeEsperaActivity);
     }
 
 
+    //codigo para o botão sair utilizar(android:onClick)
+    public void startInicialActivity (View view){
+        Intent inicialActivity = new Intent(this, InicialActivity.class);
+        startActivity(inicialActivity);
 
-}
+
+    }}
+
+
+

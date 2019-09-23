@@ -14,17 +14,17 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BuscaActivity extends AppCompatActivity {
+public class BuscaFuncActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
-    RecyclerAdapter recyclerAdapter;
+    RecyclerAdapter2 recyclerAdapter2;
 
     List<String> moviesList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_busca);
+        setContentView(R.layout.activity_busca_func);
 
         moviesList = new ArrayList<>();
         moviesList.add("Roacutan");
@@ -40,9 +40,9 @@ public class BuscaActivity extends AppCompatActivity {
 
 
         recyclerView = findViewById(R.id.recyclerView);
-        recyclerAdapter = new RecyclerAdapter(moviesList);
+        recyclerAdapter2 = new RecyclerAdapter2(moviesList);
 //        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        recyclerView.setAdapter(recyclerAdapter);
+        recyclerView.setAdapter(recyclerAdapter2);
 
         DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(this, DividerItemDecoration.VERTICAL);
         recyclerView.addItemDecoration(dividerItemDecoration);
@@ -63,7 +63,7 @@ public class BuscaActivity extends AppCompatActivity {
 
             @Override
             public boolean onQueryTextChange(String newText) {
-                recyclerAdapter.getFilter().filter(newText);
+                recyclerAdapter2.getFilter().filter(newText);
                 return false;
             }
         });

@@ -16,11 +16,14 @@ public class InicialActivity extends AppCompatActivity {
     }
 
 
-
-    public void startMenuFuncActivity (View view){
-        Intent menuFuncActivity = new Intent(this, MenuFuncActivity.class);
-        startActivity(menuFuncActivity);
+    public void startLoginFuncActivity(View view){
+        Intent loginFuncActivity = new Intent(this, LoginFuncActivity.class);
+        startActivity(loginFuncActivity);
     }
+
+
+
+
     public void startLoginActivity (View view){
         Intent loginActivity = new Intent(this, LoginActivity.class);
         startActivity(loginActivity);

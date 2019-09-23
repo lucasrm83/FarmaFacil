@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class CadastroPessoaFimActivity extends AppCompatActivity {
+public class ListaDeEsperaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cadastro_pessoa_fim);
+        setContentView(R.layout.activity_lista_de_espera);
     }
 
-    public void inicialActivity(View view) {
-        Intent inicialActivity = new Intent(this, InicialActivity.class);
-        startActivity(inicialActivity);
+    public void startMainActivity (View view) {
+        Intent mainActivity = new Intent(this, MainActivity.class);
+        startActivity(mainActivity);
     }
 }

@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class CadastroPessoaFimActivity extends AppCompatActivity {
+public class MedicamentoExcluidoActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cadastro_pessoa_fim);
+        setContentView(R.layout.activity_medicamento_excluido);
+    }
+    public void startMenuFuncActivity (View view){
+        Intent menuFuncActivity = new Intent(this, MenuFuncActivity.class);
+        startActivity(menuFuncActivity);
     }
 
-    public void inicialActivity(View view) {
-        Intent inicialActivity = new Intent(this, InicialActivity.class);
-        startActivity(inicialActivity);
-    }
 }

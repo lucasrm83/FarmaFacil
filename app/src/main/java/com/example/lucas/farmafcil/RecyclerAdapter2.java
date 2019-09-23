@@ -20,13 +20,13 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder> implements Filterable {
+public class RecyclerAdapter2 extends RecyclerView.Adapter<RecyclerAdapter2.ViewHolder> implements Filterable {
 
-    private static final String TAG = "RecyclerAdapter";
+    private static final String TAG = "RecyclerAdapter2";
     List<String> moviesList;
     List<String> moviesListAll;
 
-    public RecyclerAdapter(List<String> moviesList) {
+    public RecyclerAdapter2(List<String> moviesList) {
         this.moviesList = moviesList;
         moviesListAll = new ArrayList<>();
         moviesListAll.addAll(moviesList);
@@ -112,10 +112,9 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 
         @Override
         public void onClick(View view) {
-          //  Toast.makeText(view.getContext(), moviesList.get(getAdapterPosition()), Toast.LENGTH_SHORT).show();
-
+            //  Toast.makeText(view.getContext(), moviesList.get(getAdapterPosition()), Toast.LENGTH_SHORT).show();
             Context context = view.getContext();
-            Intent intent = new Intent(context, MedicamentoActivity.class);
+            Intent intent = new Intent(context, MedicamentoFuncActivity.class);
             context.startActivity(intent);
 
         }

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".CadastroMedicamentoActivity">
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
@@ -87,7 +87,7 @@
             android:layout_gravity="center_horizontal|center_vertical"
             android:background="#353B4E"
             android:gravity="center_horizontal|center_vertical"
-            android:onClick="Clicar"
+            android:onClick="startMedicamentoCadastradoActivity"
             android:text="Cadastrar Medicamento"
             android:textColor="#FFFFFF" />
     </FrameLayout>

@@ -10,26 +10,24 @@
         android:id="@+id/button5"
         android:layout_width="127dp"
         android:layout_height="56dp"
-        android:layout_marginBottom="110dp"
 
-        android:onClick="startLoginActivityFimCadastro"
+        android:layout_marginTop="90dp"
 
+        android:onClick="inicialActivity"
         android:text="Entrar"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="383dp"
-        android:layout_height="65dp"
-        android:layout_marginTop="201dp"
-        android:layout_marginBottom="322dp"
+        android:layout_width="292dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="32dp"
         android:text="Cadastro Efetuado com Sucesso!"
         android:textColor="#222020"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

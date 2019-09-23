@@ -8,25 +8,44 @@
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="285dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginBottom="161dp"
         android:text="Cadastrar Medicamento"
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="208dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
 
     <Button
         android:id="@+id/button10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="285dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginBottom="161dp"
         android:text="Atualizar Medicamento"
-        tools:layout_editor_absoluteX="108dp"
-        tools:layout_editor_absoluteY="314dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
 
     <Button
         android:id="@+id/button11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="285dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="142dp"
+
+        android:onClick="startInicialActivity"
         android:text="Sair"
-        tools:layout_editor_absoluteX="163dp"
-        tools:layout_editor_absoluteY="419dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
 </androidx.constraintlayout.widget.ConstraintLayout>

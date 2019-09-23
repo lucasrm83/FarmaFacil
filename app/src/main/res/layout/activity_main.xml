@@ -10,31 +10,35 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
+        android:layout_marginBottom="44dp"
+
+        android:onClick="startBuscaActivity"
         android:text="Buscar Medicamento"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="265dp" />
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="@+id/button2" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="326dp"
         android:text="Listar Medicamentos"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="357dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Listar Medicamentos"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="453dp" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
+        android:layout_marginTop="47dp"
+
+        android:onClick="startSairDoMenu"
         android:text="Sair"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="559dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 </androidx.constraintlayout.widget.ConstraintLayout>

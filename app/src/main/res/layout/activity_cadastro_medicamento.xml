@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#464545">
+
+        <AutoCompleteTextView
+            android:id="@+id/Cadastro_Nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NOME"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#030303" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#464545">
+
+        <AutoCompleteTextView
+            android:id="@+id/Cadastro_Quantidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="QUANTIDADE"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#030303" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#464545">
+
+        <AutoCompleteTextView
+            android:id="@+id/Cadastro_Dosagem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="DOSAGEM"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#030303" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#464545">
+
+        <AutoCompleteTextView
+            android:id="@+id/Cadastro_CODIGO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CODIGO"
+            android:inputType="text"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="#030303" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:background="#353B4E"
+            android:gravity="center_horizontal|center_vertical"
+            android:onClick="Clicar"
+            android:text="Cadastrar Medicamento"
+            android:textColor="#FFFFFF" />
+    </FrameLayout>
+</LinearLayout>
